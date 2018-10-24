@@ -1,0 +1,15 @@
+{
+  "name": "eres2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Horochovec",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.341.0",
+    "uuid": "^3.3.2"
+  }
+}
