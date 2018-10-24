@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "84c4e984-ba4b-48f0-b260-0272fc4d7a77",
+		"name": "ERES 2018",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://[YOUR-APP-ID].execute-api.us-east-1.amazonaws.com/dev/todos",
+					"protocol": "https",
+					"host": [
+						"[YOUR-APP-ID]",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"body\" : \"ERES 2018\" }"
+				},
+				"url": {
+					"raw": "https://[YOUR-APP-ID].execute-api.us-east-1.amazonaws.com/dev/todos",
+					"protocol": "https",
+					"host": [
+						"[YOUR-APP-ID]",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://[YOUR-APP-ID].execute-api.us-east-1.amazonaws.com/dev/todos/23e2cea0-d78c-11e8-a9a7-0fc38ab8f256",
+					"protocol": "https",
+					"host": [
+						"[YOUR-APP-ID]",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"todos",
+						"23e2cea0-d78c-11e8-a9a7-0fc38ab8f256"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"body\" : \"ERES 2018 - Serverless\" }"
+				},
+				"url": {
+					"raw": "https://[YOUR-APP-ID].execute-api.us-east-1.amazonaws.com/dev/todos/23e2cea0-d78c-11e8-a9a7-0fc38ab8f256",
+					"protocol": "https",
+					"host": [
+						"[YOUR-APP-ID]",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"todos",
+						"23e2cea0-d78c-11e8-a9a7-0fc38ab8f256"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://[YOUR-APP-ID].execute-api.us-east-1.amazonaws.com/dev/todos/68fa5670-d78c-11e8-a9a7-0fc38ab8f256",
+					"protocol": "https",
+					"host": [
+						"[YOUR-APP-ID]",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"todos",
+						"68fa5670-d78c-11e8-a9a7-0fc38ab8f256"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
